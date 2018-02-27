@@ -1,0 +1,9 @@
+*{
+	margin: 5px;
+	padding: 5px;
+	color: #ff0000;
+}
+div li{
+	font-size: 15px;
+	background: #FAE0D4;
+}

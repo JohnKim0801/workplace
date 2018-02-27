@@ -1,0 +1,17 @@
+#content{
+	text-align: center;
+	padding: 25%;
+}
+body{
+	background: url(https://images.unsplash.com/photo-1450096315186-13dc369ab43e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=320f4642a21dec59fd48f3a688f54e67&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Mukta Mahee', sans-serif;
+
+}
+h1{
+	color: white;
+}
+h3{
+	color: white;
+}

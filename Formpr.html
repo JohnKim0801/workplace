@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form action="https://editor.wix.com/html/editor/web/renderer/edit/e2ea4da2-f255-4248-b38c-dedd0cb0da2f?metaSiteId=14350405-7acc-4954-b0e4-a2dfe3a5837e&editorSessionId=B1C3CCC1-1079-4C34-868D-84ABC54A4206">
+		<p><label for="Name">First Name :</label> 
+			<input id="First Name" type="text" placeholder="John" required>
+			<label for="Name">Last Name :</label> 
+			<input id="Last Name" type="text" placeholder="Smith" required title="3 characters minimum"></p>
+
+			<div>
+				<label for="Male">Male</label>
+				<input type="radio" name="sexChoice" value="MALE" id="Male">
+
+				<label for="feMale">feMale</label>
+				<input type="radio" name="sexChoice" value="FEMALE" id="feMale">
+
+				<label for="other">Other</label>
+				<input type="radio" name="sexChoice" value="OTHER" id="other">
+			</div>
+
+			<div>
+				<label for Email>Email :</label>
+				<input type="Email" name="Email" placeholder="abc@gmail.com" required>
+
+				<label for password>password</label>
+				<input pattern=".{5,10}" type="password" name="password" placeholder="your password" required title="5 to 10 characters needed">
+			</div>
+			<div>
+				<label>BirthDay :
+					<select name="Month">
+						<option>Jan</option>
+					</select>
+					<select name="day"></select>
+					<select name="year"></select>
+				</label>
+			</div>
+			<div> <label for="agreed">I agree to the terms and condition</label>
+				<input type="checkbox" name="agreed" id="agreed">
+			</div>
+			<input type="submit" name="">
+
+		</form>
+	</body>
+
+	</html>
